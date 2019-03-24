@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/C"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginBottom="5dp"
+        android:background="#581845" />
+
+    <Button
+        android:id="@+id/D"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="#9d0c3f" />
+
+    <Button
+        android:id="@+id/E"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="5dp"
+        android:background="#c70039" />
+
+    <Button
+        android:id="@+id/F"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ff5733" />
+
+    <Button
+        android:id="@+id/G"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffc30f" />
+
+    <Button
+        android:id="@+id/A"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="#F1A93B" />
+
+    <Button
+        android:id="@+id/B"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="5dp"
+        android:background="#C1F462 " />
+</LinearLayout>
