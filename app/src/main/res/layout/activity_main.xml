@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="93dp"
         android:layout_marginBottom="5dp"
-        android:background="#581845" />
+        android:background="#581845"
+        android:onClick="playC"/>
 
     <Button
         android:id="@+id/D"
@@ -22,7 +23,8 @@
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
         android:layout_marginBottom="5dp"
-        android:background="#9d0c3f" />
+        android:background="#9d0c3f"
+        android:onClick="playD"/>
 
     <Button
         android:id="@+id/E"
@@ -31,7 +33,8 @@
         android:layout_marginLeft="6dp"
         android:layout_marginRight="6dp"
         android:layout_marginBottom="5dp"
-        android:background="#c70039" />
+        android:background="#c70039"
+        android:onClick="playE"/>
 
     <Button
         android:id="@+id/F"
@@ -40,7 +43,8 @@
         android:layout_marginLeft="9dp"
         android:layout_marginRight="9dp"
         android:layout_marginBottom="5dp"
-        android:background="#ff5733" />
+        android:background="#ff5733"
+        android:onClick="playF"/>
 
     <Button
         android:id="@+id/G"
@@ -49,7 +53,8 @@
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
         android:layout_marginBottom="5dp"
-        android:background="#ffc30f" />
+        android:background="#ffc30f"
+        android:onClick="playG"/>
 
     <Button
         android:id="@+id/A"
@@ -58,7 +63,8 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="5dp"
-        android:background="#F1A93B" />
+        android:background="#F1A93B"
+        android:onClick="playA"/>
 
     <Button
         android:id="@+id/B"
@@ -67,5 +73,6 @@
         android:layout_marginLeft="18dp"
         android:layout_marginRight="18dp"
         android:layout_marginBottom="5dp"
-        android:background="#C1F462 " />
+        android:background="#C1F462 "
+        android:onClick="playB"/>
 </LinearLayout>
